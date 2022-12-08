@@ -1,5 +1,5 @@
 # ST7789-TFT-LCD-ESPHome
-Display Component ST7789 TFT LCD 240x240 for ESPHome (not used reset_pin)
+Display Component ST7789 TFT LCD 240x240 for ESPHome (without CS pin)
 
 # Настройка ESPHome
 Поместить папку st7789v с ее содержимым в папку my_components Вашей ESPHome\
@@ -13,4 +13,6 @@ display:
     dimensions: 240x240
     update_interval: 0.5s
 ```
-С этим модифицированным компонентом корректно работает дисплей ST7789 240х240 без использования reset_pin
+С этим модифицированным компонентом корректно работает дисплей ST7789 240х240 без использования CS_pin\
+Работа проверялась на дисплее 240х240 купленном на AliExpress\
+![all](https://github.com/samoswall/ST7789-TFT-LCD-ESPHome/blob/main/st7789%20without%20CS%20pin.jpg)
